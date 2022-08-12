@@ -11,7 +11,6 @@ int main(){
    printf("\nEnter an operator (+ - * / q): ");
    scanf("%s", &operator);
    
-
    if (operator == 'q'){
 
       printf ("End of operations");
@@ -44,8 +43,10 @@ int main(){
                }else{
                printf("\nresult =%.2lf",num1/num2);}
             break;
-        
-      }
+        //  default :
+        //     printf ("operation non valide" );
+    
+       }
    }
    return 0; 
 }
